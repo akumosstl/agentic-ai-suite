@@ -1,7 +1,7 @@
 ---
 name: ingest
 description: Lê um arquivo bruto e o compila para a wiki.
-model: opencode/big-pickle
+model: default
 ---
 # Instruções
 1. Leia o arquivo `@.agentic/brain/raw/$1` completamente.

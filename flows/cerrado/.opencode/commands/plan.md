@@ -2,7 +2,7 @@
 name: plan
 description: Lê a análise e a transforma em um plano executável.
 agents: planner
-model: opencode/big-pickle
+model: default
 arguments:
   - name: id
     description: "O nome identificador do plan (ex: sprint1, sprint2, sprint3)"

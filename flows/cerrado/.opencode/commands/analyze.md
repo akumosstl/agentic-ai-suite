@@ -2,7 +2,7 @@
 name: analyze
 description: Executa apenas o agente Analyzer. Produz uma análise estruturada da solicitação atual e a escreve em .agentic/memory/analyze_{id}.json.
 agent: analyzer
-model: opencode/big-pickle
+model: default
 temperature: 0.1
 arguments:
   - name: id

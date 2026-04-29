@@ -7,8 +7,15 @@
 1. Open your terminal (Command Prompt or Power Shell on Windows)
 2. Run the tool by typing your message after `nvidia.exe`:
 
-```
+```bash
 nvidia.exe "Your question here"
+```
+
+Or use the script:
+
+```bash
+nvidia.bat
+
 ```
 
 ### Examples
@@ -50,4 +57,10 @@ Move the file `nvidia.exe` to:
 
 ```bash
 <user_home>\.agentic\tools
+```
+
+Or move the .bat script:
+
+```bash
+<user_home>\.agentic\tools\nvidia.bat
 ```

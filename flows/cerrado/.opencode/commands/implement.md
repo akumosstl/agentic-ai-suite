@@ -2,7 +2,7 @@
 name: implement
 description: Executa a implementação de um planner.
 agents: implementer
-model: opencode/big-pickle
+model: default
 temperature: 0.1
 arguments:
   - name: id
