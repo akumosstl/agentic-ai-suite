@@ -24,19 +24,19 @@ Estas regras se aplicam a toda invocação de `agent` sem exceção:
 - Violação de limites de fase é uma falha crítica — pipeline aborta.
 
 ## Memória e Contexto
-- Antes de sugerir qualquer código Java/Spring, verifique se existe um padrão correspondente em `.agentic/brain/wiki/concepts/`.
+- Antes de sugerir qualquer código Java/Spring, verifique se existe um padrão correspondente em `@.agentic/brain/wiki/concepts/`.
 - Priorize sempre as definições e exemplos que salvamos na Wiki em vez de usar conhecimento genérico.
-- Se eu perguntar "como fazemos X?", sua primeira ação deve ser ler `.agentic/brain/wiki/index.md` para localizar o conceito.
+- Se eu perguntar "como fazemos X?", sua primeira ação deve ser ler `@.agentic/brain/wiki/index.md` para localizar o conceito.
 
 ## Protocolos Automáticos de Saída (Post-Action)
 Sempre que uma tarefa for concluída com sucesso (especialmente correções de bugs ou novas implementações), você DEVE seguir este protocolo sem que eu peça:
 
-1. **Avaliação de Conhecimento**: Se a solução envolveu um erro complexo ou um padrão de código Spring recorrente, pergunte: "Deseja catalogar esta solução em `.agentic/brain/wiki/troubleshooting.md`?".
-2. **Atualização de Contexto**: Se eu disser "sim", use o `.agentic/templates/concept-template.md` para extrair a causa raiz, a solução e o código corrigido.
-3. **Linkagem**: Adicione o link da nova solução no seu `.agentic/brain/wiki/index.md`.
+1. **Avaliação de Conhecimento**: Se a solução envolveu um erro complexo ou um padrão de código Spring recorrente, pergunte: "Deseja catalogar esta solução em `@.agentic/brain/wiki/troubleshooting.md`?".
+2. **Atualização de Contexto**: Se eu disser "sim", use o `@.agentic/templates/concept-template.md` para extrair a causa raiz, a solução e o código corrigido.
+3. **Linkagem**: Adicione o link da nova solução no seu `@.agentic/brain/wiki/index.md`.
 
 ## Regra de Consulta Prévio-Implementação
-- Antes de gerar QUALQUER novo arquivo de código, execute silenciosamente uma busca em `.agentic/brain/wiki/concepts/` e `.agentic/brain/wiki/troubleshooting.md`.
+- Antes de gerar QUALQUER novo arquivo de código, execute silenciosamente uma busca em `@.agentic/brain/wiki/concepts/` e `@.agentic/brain/wiki/troubleshooting.md`.
 - Se houver conflito entre o que você ia sugerir e o que está na nossa Wiki, avise-me: "Notei na nossa Wiki que preferimos o padrão X, vou seguir ele".
 
 ### Regras de saída
@@ -47,6 +47,6 @@ Sempre que uma tarefa for concluída com sucesso (especialmente correções de b
 
 ### Memória e Saída
 
-- **Memória** (`.agentic/memory/`): Artefatos de runtime produzidos por agentes durante a execução. Ephemeral por padrão.
-- **Saída** (`.agentic/output/`): Entregáveis finais do pipeline.
+- **Memória** (`@.agentic/memory/`): Artefatos de runtime produzidos por agentes durante a execução. Ephemeral por padrão.
+- **Saída** (`@.agentic/output/`): Entregáveis finais do pipeline.
 

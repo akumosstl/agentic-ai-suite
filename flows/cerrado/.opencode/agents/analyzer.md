@@ -2,7 +2,7 @@
 name: analyzer
 description: Agente sênior de análise — somente leitura, validado por schema. Avalia arquitetura, dependências, riscos e produz descobertas estruturadas.
 mode: primary
-model: default
+model:
 temperature: 0.2
 steps: 5
 permissions:
