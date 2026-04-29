@@ -1,0 +1,1 @@
+node ./nvidia/index.js %1
