@@ -1,0 +1,10 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "sql-runner": {
+      "type": "local",
+      "command": ["node", "C:\\Users\\USER\\projects\\lab\\rag\\server.js"],
+      "enabled": true
+    }
+  }
+}
