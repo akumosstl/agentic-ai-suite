@@ -351,4 +351,4 @@ Detailed guides for each feature:
 
 ## Version
 
-**2.10.10** - Release Date: 2026-05-04
+**3.0.0** - Release Date: 2026-05-04
