@@ -11,7 +11,6 @@ Welcome to **Agentic**, a pipeline execution system for building and managing AI
 1. Download the application package
 2. Extract the ZIP file
 3. Run `backend.exe`
-4. Open your browser to `http://localhost:4200`
 
 ---
 
