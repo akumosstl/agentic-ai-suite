@@ -48,6 +48,14 @@ pushd "%TARGET_DIR%" 2>nul && (
     exit /b 1
 )
 
+rem Safety check: prevent TARGET_DIR from being the script's own directory
+if /i "!TARGET_DIR!"=="%SCRIPT_DIR%" (
+    echo ERROR: TARGET_DIR cannot be the same directory as this script.>&2
+    echo        Running the installer in the source directory would overwrite the original .agentic/ and .opencode/ folders.>&2
+    echo        Please specify a different target directory.>&2
+    exit /b 1
+)
+
 echo.
 echo === Agentic Framework Installer ===
 echo Project: %PROJECT_NAME%
