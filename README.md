@@ -6,7 +6,19 @@ Welcome to **Agentic**, a pipeline execution system for building and managing AI
 
 ## Getting Started
 
-### Starting the Application
+
+### Install the flow
+
+Clone and install one of the available agentic flows/setups. We recommend using the cerrado flow, available at:
+https://github.com/akumosstl/cerrado-flow
+
+The flow must be installed at the root directory of your target project.
+
+Once the flow is properly set up, create a new project in Agentic UI and configure the project path to point to the root directory where the cerrado flow was installed.
+
+This ensures that Agentic UI can correctly detect and leverage the predefined flow configuration.
+
+### Starting the UI Application
 
 1. Download the application package
 2. Extract the ZIP file
