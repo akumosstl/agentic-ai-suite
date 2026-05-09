@@ -6,10 +6,15 @@ Welcome to **Agentic**, a pipeline execution system for building and managing AI
 
 ## Getting Started
 
+You can use the Agentic UI to build and run pipelines and can use the RECIPE either in visual mode or command line through .yml config files.
+
+To learn use the recipe check this document: [recipes](docs/DOC-RECIPE.md)
 
 ### Install the flow
 
-Clone and install one of the available agentic flows/setups. We recommend using the cerrado flow, available at:
+You could use Agentic without any flow but to have a better experience you advise use one.
+
+You could use your own flow or clone and install one of the available agentic flows/setups. We recommend using the cerrado flow, available at:
 https://github.com/akumosstl/cerrado-flow
 
 The flow must be installed at the root directory of your target project.
@@ -362,4 +367,4 @@ Detailed guides for each feature:
 
 ## Version
 
-**3.0.0** - Release Date: 2026-05-04
+**4.0.0** - Release Date: 2026-05-04
