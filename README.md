@@ -47,6 +47,7 @@ Agentic allows you to:
 - **Use MCP Server** - Connect AI tools to Agentic via Model Context Protocol
 - **Backup & Restore** - Create and download database backups
 - **Export & Import** - Move data in and out of the system
+- **Execute Recipes** - Automate multi-step workflows from YAML definitions with project-scoped resolution and parameterized execution
 
 ---
 
