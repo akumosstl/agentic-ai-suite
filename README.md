@@ -8,7 +8,9 @@ Welcome to **Agentic**, a pipeline execution system for building and managing AI
 
 You can use the Agentic UI to build and run pipelines and can use the RECIPE either in visual mode or command line through .yml config files.
 
-To learn use the recipe check this document: [recipes](docs/DOC-RECIPE.md)
+- To learn use the recipe check this document: [recipes](docs/DOC-RECIPE.md)
+- Recipe API: [recipe-api](docs/RECIPE-API.md)
+
 
 ### Install the flow
 
