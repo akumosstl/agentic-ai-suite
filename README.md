@@ -79,7 +79,7 @@ The Stack menu contains your core entities:
 
 | Option | Description |
 |--------|-------------|
-| Templates | Reusable templates for agents, scripts, and instructions |
+| Templates | Reusable templates for agents and scripts |
 | Namespace | Organize entities by category |
 | Export | Export project data |
 | Import | Import project data |
@@ -100,7 +100,6 @@ Press **Ctrl+Shift+Q** to open the shortcuts reference at any time.
 | Ctrl+Shift+S | Go to Scripts |
 | Ctrl+Shift+T | Go to Templates |
 | Ctrl+Shift+N | Go to Namespaces |
-| Ctrl+Shift+I | Go to Instructions |
 | Ctrl+Shift+L | Go to Pipelines |
 | Ctrl+Shift+P | Go to Project |
 | Ctrl+B | Toggle side panel |
@@ -149,18 +148,7 @@ Press **Ctrl+Shift+Q** to open the shortcuts reference at any time.
    - **Prompt** - Instructions for the agent
 4. Click **Create**
 
-### 3. Create Instructions
-
-1. Go to **Stack > Instructions**
-2. Click **Add**
-3. Fill in:
-   - **Name** - Instruction set name
-   - **Namespace** - Category (optional)
-   - **Instructions** - The instruction text
-4. Optionally add files for reference
-5. Click **Create**
-
-### 4. Write a Script
+### 3. Write a Script
 
 1. Go to **Stack > Scripts**
 2. Click **Add**
@@ -170,7 +158,7 @@ Press **Ctrl+Shift+Q** to open the shortcuts reference at any time.
    - **Script** - Your executable code
 4. Click **Create**
 
-### 5. Build a Pipeline
+### 4. Build a Pipeline
 
 1. Go to **Stack > Pipelines**
 2. Click **Add**
@@ -181,14 +169,14 @@ Press **Ctrl+Shift+Q** to open the shortcuts reference at any time.
 4. Arrange order via drag-and-drop
 5. Click **Save**
 
-### 6. Run a Pipeline
+### 5. Run a Pipeline
 
 1. Select your pipeline
 2. Click **Run**
 3. Monitor progress in real-time
 4. View step outputs as they execute
 
-### 7. Duplicate a Pipeline
+### 6. Duplicate a Pipeline
 
 1. In the project view, click the **duplicate** icon (copy) next to the pipeline
 2. Enter a name for the new pipeline (a default name is suggested automatically)
@@ -267,10 +255,6 @@ Use the **Agents** button on the project page to:
 - Add new agents (with search and bulk selection)
 - Remove agents from the project
 
-### Syncing Instruction Files
-
-On the Instructions page, click **Sync** to write selected instruction files to a directory on your filesystem. This is useful for making instruction files available to external tools.
-
 ---
 
 ## Pipeline Features
@@ -333,7 +317,6 @@ Detailed guides for each feature:
 | Guide | Description |
 |-------|-------------|
 | [Agents](docs/agents-guide.md) | Create AI agents with custom prompts |
-| [Instructions](docs/instructions-guide.md) | Reusable instruction sets |
 | [Scripts](docs/scripts-guide.md) | Executable scripts |
 | [Pipelines](docs/pipelines-guide.md) | View executed pipelines |
 | [Pipeline Steps](docs/pipeline-steps.md) | Create and configure pipeline steps |
