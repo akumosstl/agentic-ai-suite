@@ -8,11 +8,11 @@ Welcome to **Agentic**, a pipeline execution system for building and managing AI
 
 You can use the Agentic UI to build and run pipelines and can use the RECIPE either in visual mode or command line through .yml config files.
 
-- To learn use the recipe check this document: [recipes](docs/DOC-RECIPE.md)
+- To learn how use the recipe check this document: [recipes](docs/DOC-RECIPE.md)
 - Recipe API: [recipe-api](docs/RECIPE-API.md)
 
 
-### Install the flow
+### Flow installation
 
 You could use Agentic without any flow but to have a better experience you advise use one.
 
@@ -29,7 +29,7 @@ This ensures that Agentic UI can correctly detect and leverage the predefined fl
 
 1. Download the application package
 2. Extract the ZIP file
-3. Run `backend.exe`
+3. Run `agentic.exe`
 
 ---
 
@@ -37,8 +37,8 @@ This ensures that Agentic UI can correctly detect and leverage the predefined fl
 
 Agentic allows you to:
 
+- **Execute Recipes** - Automate multi-step workflows from YAML definitions with project-scoped resolution and parameterized execution
 - **Create AI Agents** - Build intelligent agents with custom prompts
-- **Define Instructions** - Create reusable instruction sets with supporting files
 - **Write Scripts** - Develop executable scripts for automation
 - **Build Pipelines** - Orchestrate sequences of agents and scripts
 - **Duplicate Pipelines** - Clone existing pipelines with all steps and configurations
@@ -47,7 +47,6 @@ Agentic allows you to:
 - **Use MCP Server** - Connect AI tools to Agentic via Model Context Protocol
 - **Backup & Restore** - Create and download database backups
 - **Export & Import** - Move data in and out of the system
-- **Execute Recipes** - Automate multi-step workflows from YAML definitions with project-scoped resolution and parameterized execution
 
 ---
 
@@ -71,7 +70,6 @@ The Stack menu contains your core entities:
 | Option | Description |
 |--------|-------------|
 | Agents | AI agents with custom prompts |
-| Instructions | Reusable instruction sets |
 | Scripts | Executable scripts |
 | Pipelines | View all pipelines |
 
