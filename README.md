@@ -1,12 +1,12 @@
 # Agentic - User Guide
 
-Welcome to **Agentic**, a pipeline execution system for building and managing AI agents. This guide helps you get started.
+Welcome to **Mangaba**, a pipeline execution system for building and managing AI agents. This guide helps you get started.
 
 ---
 
 ## Getting Started
 
-You can use the Agentic UI to build and run pipelines and can use the RECIPE either in visual mode or command line through .yml config files.
+You can use the Mangaba UI to build and run pipelines and can use the RECIPE either in visual mode or command line through .yml config files.
 
 - To learn how use the recipe check this document: [recipes](docs/DOC-RECIPE.md)
 - Recipe API: [recipe-api](docs/RECIPE-API.md)
@@ -23,7 +23,7 @@ The flow must be installed at the root directory of your target project.
 
 Once the flow is properly set up, create a new project in Agentic UI and configure the project path to point to the root directory where the cerrado flow was installed.
 
-This ensures that Agentic UI can correctly detect and leverage the predefined flow configuration.
+This ensures that Mangaba UI can correctly detect and leverage the predefined flow configuration.
 
 ### Starting the UI Application
 
