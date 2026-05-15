@@ -1,6 +1,6 @@
 # Recipe Engine - User Guide
 
-A Recipe is a declarative YAML file that automates the creation and execution of resources in Agentic. With a single `.yml` file you can create projects, agents, scripts, pipelines, targets, and templates, then run, stop, or call pipelines in a coordinated workflow.
+A Recipe is a declarative YAML file that automates the creation and execution of resources in Mangaba. With a single `.yml` file you can create projects, agents, scripts, pipelines, targets, and templates, then run, stop, or call pipelines in a coordinated workflow.
 
 ---
 
